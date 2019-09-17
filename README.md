@@ -15,7 +15,10 @@ curl -L http://localhost:8080
 
 or navigate to [http://localhost:8080](http://localhost:8080) in your browser.
 
-benchmark time: {'time': 15.507785081863403}
+In your terminal you should also see a time output for execution time:
+```
+{'time': 9.686075687408447}
+```
 
 ## Project Scope (instructions from G2i)
 

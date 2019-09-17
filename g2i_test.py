@@ -5,7 +5,6 @@ from parsel import Selector
 import json
 from pprint import pprint
 import time
-start = time.time()
 
 def get_all_links(page):
   selector = Selector(page)
@@ -35,7 +34,7 @@ def filter_links(links, domain, roothost):
     return newlinks
 
 def build_site_map(starting_url, max_depth = 3):
-  # pprint('here');
+  start = time.time()
   # Expected output
   # ##
   # [
