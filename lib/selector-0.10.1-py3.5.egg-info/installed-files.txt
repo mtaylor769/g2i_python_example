@@ -1,0 +1,7 @@
+../selector.py
+../__pycache__/selector.cpython-35.pyc
+SOURCES.txt
+top_level.txt
+PKG-INFO
+requires.txt
+dependency_links.txt
